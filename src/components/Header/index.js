@@ -1,20 +1,24 @@
 import React, { useState } from "react";
 import About from "../About";
 import Navigation from "../Navigation";
-// TODO: Import Portfolio
-// TODO: Import Contact
+import Portfolio from "../Portfolio";
+import Contact from "../Contact";
 // TODO: Import Resume
 
 function Header() {
     // TODO: Review naming conventions for page/page change handler 
-    const [currentPage, togglePage] = useState("About");
+    const [pageSelected, togglePage] = useState("About");
 
     const getPage = () => {
-        switch (currentPage) {
+        switch (pageSelected) {
         case "About":
             return <About />;
-            // TODO: Set up switch case for other pages
-
+        case "Portfolio":
+            return <Portfolio/>;
+        case "Contact":
+            return <Contact/>;
+        // case "Resume":
+        //     return <Resume/>;
         default:
             return <About />;
         }
@@ -23,11 +27,11 @@ function Header() {
     return(
         <header>
             <Navigation
-                currentPage={currentPage}
+                pageSelected={pageSelected}
                 togglePage={togglePage}
             />
             <main>
-                <div>{getPage(currentPage)}</div>
+                <div>{getPage(pageSelected)}</div>
             </main>
         </header>
     )

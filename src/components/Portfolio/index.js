@@ -1,6 +1,6 @@
 import React from "react";
 
-function Portfolio() {
+function Portfolio(props) {
 
     // TODO: Refactor CSS for portfolio - maybe use bootstrap? and add images of project preview
 

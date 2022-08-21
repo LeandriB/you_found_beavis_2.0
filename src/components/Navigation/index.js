@@ -1,37 +1,22 @@
 import React from "react";
 
-function Navigation() {
+function Navigation(props) {
 
-    const pages = [
-        {
-            name: "About Me",
-            description:
-                "Introduction about me, Leandri B",
-        },
-        { name: "Portfolio", description: "Collection of my dev journey" },
-        { name: "Contact", description: "Let's connect" },
-        {
-            name: "Resume",
-            description: "My Professional experience",
-        },
-    ]
+    const pages = [ "About", "Portfolio", "Contact", "Resume"  ]
 
-    function pageSelected(name) {
-        console.log(`${name} clicked`)
-    }
+    // function pageSelected(name) {
+    //     console.log(`${name} clicked`)
+    // }
 
     return (
         <header>
             <nav>
             <ul className="flex-row">
                 {pages.map((page) => (
-                <li
-                    className="mx-1"
-                    key={page.name}
-                >
-                    <span onClick={pageSelected} >
-                    {page.name}
-                    </span>
+                <li className={props.pageSelected === page ? "nav-item isActive" : "nav-item"}
+                    key={page}
+                    >
+                    <a className={props.pageSelected === page ? "nav-link isActive" : "nav-link" } onClick={() => props.togglePage(page)}> {page} </a>
                 </li>
                 ))}
             </ul>
