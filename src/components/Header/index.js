@@ -3,7 +3,7 @@ import About from "../About";
 import Navigation from "../Navigation";
 import Portfolio from "../Portfolio";
 import Contact from "../Contact";
-// TODO: Import Resume
+import Resume from "../Resume";
 
 function Header() {
     // TODO: Review naming conventions for page/page change handler 
@@ -17,8 +17,8 @@ function Header() {
             return <Portfolio/>;
         case "Contact":
             return <Contact/>;
-        // case "Resume":
-        //     return <Resume/>;
+        case "Resume":
+            return <Resume/>;
         default:
             return <About />;
         }

@@ -93,6 +93,7 @@ This application is licensed under the MIT License.
 * Base of [Code](https://github.com/LeandriB/photo_port) from examples in Module 20.
 * This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 * Reusing some styling from my first portfolio [website](https://github.com/LeandriB/personal_blog_website)
+* How to make a button [downloadable](https://www.w3schools.com/tags/att_a_download.asp)
 
 ## Questions
 
