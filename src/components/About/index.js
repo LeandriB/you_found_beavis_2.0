@@ -19,7 +19,7 @@ function About() {
                 programming through backend architecture and quickly realized that I want to know more about the frontend.
             </p>
             <p className="about-text">
-                When I am not improving my projects or solving coding problems, you can find me outdoors, hanging out with my dog, 
+                When I am not improving my projects or solving coding problems, you can find me outdoors, hanging out with my dogs, 
                 at the gym or, in the kitchen cooking up a storm. 
             </p>
         </div>
