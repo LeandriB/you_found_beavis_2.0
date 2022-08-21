@@ -58,9 +58,32 @@ li {
   transition: color 0.3s ease;
 }
 
-.color:hover {
-  color: var(--pink);
-  cursor: default;
+.one:hover {
+  color: #f542d7;
+}
+
+.two:hover {
+  color: #cc1619;
+}
+
+.three:hover {
+  color: #e35327;
+}
+
+.four:hover {
+  color: #f1e727;
+}
+
+.five:hover {
+  color: #3dd41c;
+}
+
+.six:hover {
+  color: #2138cf;
+}
+
+.seven:hover {
+  color: #9221cf;
 }
 
 h1 {

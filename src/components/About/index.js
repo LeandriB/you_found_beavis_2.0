@@ -6,7 +6,14 @@ function About() {
             <h1>
                 <span className="small">Hello,</span>
                 <span className="ease-right-expand">
-                    <span>I'm <span className="color">Leandri.</span></span>
+                    <span>I'm &nbsp;
+                        <span className="color one">L</span>
+                        <span className="color two">e</span>
+                        <span className="color three">a</span>
+                        <span className="color four">n</span>
+                        <span className="color five">d</span>
+                        <span className="color six">r</span>
+                        <span className="color seven">i</span>.</span>
                 </span>
             </h1>
             <p className="about-text">
