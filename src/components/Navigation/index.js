@@ -2,7 +2,7 @@ import React from "react";
 
 function Navigation() {
 
-    const categories = [
+    const pages = [
         {
             name: "About Me",
             description:
@@ -16,7 +16,7 @@ function Navigation() {
         },
     ]
 
-    function categorySelected(name) {
+    function pageSelected(name) {
         console.log(`${name} clicked`)
     }
 
@@ -24,13 +24,13 @@ function Navigation() {
         <header>
             <nav>
             <ul className="flex-row">
-                {categories.map((category) => (
+                {pages.map((page) => (
                 <li
                     className="mx-1"
-                    key={category.name}
+                    key={page.name}
                 >
-                    <span onClick={categorySelected} >
-                    {category.name}
+                    <span onClick={pageSelected} >
+                    {page.name}
                     </span>
                 </li>
                 ))}
