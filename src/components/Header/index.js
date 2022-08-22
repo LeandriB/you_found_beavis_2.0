@@ -25,10 +25,9 @@ function Header() {
     };
 
     return(
-        <section>
+        <section className="page-container">
             <section className="top-line"></section>
             <section className="home-container">
-                <section className="home-body"></section>
                 <header>
                     <Navigation
                         pageSelected={pageSelected}

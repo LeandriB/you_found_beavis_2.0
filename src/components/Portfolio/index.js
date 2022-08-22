@@ -55,10 +55,10 @@ function Portfolio() {
     ]
 
     return (
-        <div>
+        <section>
             <h1 className="small ease-right-expand">Projects</h1>
                 <Project projects={projects}/>
-        </div>
+        </section>
     )
 }
 

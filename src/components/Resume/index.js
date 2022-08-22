@@ -2,8 +2,8 @@ import React from "react";
 
 function Resume() {
     return (
-        <div>
-            <p>Skills</p>
+        <section>
+            <h1 className="small ease-right-expand">Skills</h1>
             <br/>
             <ul>
                 <li>HTML, CSS, JavaScript</li>
@@ -16,7 +16,7 @@ function Resume() {
                 {/* TODO: add link to pdf to download */}
                 <a href="" download>Download Resume</a>
             </button>
-        </div>
+        </section>
     )
 }
 
