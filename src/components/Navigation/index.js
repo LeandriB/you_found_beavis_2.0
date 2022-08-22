@@ -4,10 +4,6 @@ function Navigation(props) {
 
     const pages = [ "About", "Portfolio", "Contact", "Resume"  ]
 
-    // function pageSelected(name) {
-    //     console.log(`${name} clicked`)
-    // }
-
     return (
         <header>
             <nav>

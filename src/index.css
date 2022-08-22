@@ -44,6 +44,15 @@ li {
   width: 600px;
 }
 
+.top-line {
+  position: absolute;
+  top: 0;
+  height: 5px;
+  width: 100vw;
+  background-color: #f1e727;
+  z-index: 500;
+}
+
 .small {
   font-size: 50px;
   display: block;
@@ -169,11 +178,6 @@ button:hover {
 }
 
  /* Project Display */
- :root {
-  --color: #83817fa8;
-  --accent: #566351;
-  --pink: #c1a7b3;
-}
 
 h4 {
   text-transform: uppercase;

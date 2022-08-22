@@ -25,15 +25,18 @@ function Header() {
     };
 
     return(
-        <header>
-            <Navigation
-                pageSelected={pageSelected}
-                togglePage={togglePage}
-            />
-            <main>
-                <div>{getPage(pageSelected)}</div>
-            </main>
-        </header>
+        <section>
+            <section className="top-line"></section>
+            <header>
+                <Navigation
+                    pageSelected={pageSelected}
+                    togglePage={togglePage}
+                />
+                <main>
+                    <div>{getPage(pageSelected)}</div>
+                </main>
+            </header>
+        </section>
     )
 }
 
