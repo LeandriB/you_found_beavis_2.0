@@ -94,6 +94,7 @@ This application is licensed under the MIT License.
 * This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 * Reusing some styling from my first portfolio [website](https://github.com/LeandriB/personal_blog_website)
 * How to make a button [downloadable](https://www.w3schools.com/tags/att_a_download.asp)
+* [Bootstrap](https://getbootstrap.com/docs/4.0/components/navs/) for some of the styling
 
 ## Questions
 

@@ -99,6 +99,49 @@ h1 {
   font-family:  Arial, Helvetica, sans-serif;
   font-size: 100px;
   margin: 50px 0 30px 0;
+  font-weight: 500;
+}
+
+
+/* .home-container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.home-body {
+  margin: 0;
+  flex-grow: 1;
+  height: 100vh;
+} */
+
+/* .home-image-container {
+  height: 100vh;
+  width: 45vw;
+  background-color: var(--accent);
+} */
+
+.home-image {
+  position: absolute;
+  right: 15rem;
+  top: 12rem;
+  width: 30vw;
+  height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about-text {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  margin: auto;
+  width: 525px;
+}
+
+nav {
+  flex: auto;
+  text-align: center;
+  display: block;
 }
 
 /* Form set up and display */
@@ -158,7 +201,7 @@ button:hover {
 .social-container {
   display: flex;
   flex-wrap: wrap;
-  width: 600px;
+  width: 100%;
   justify-content: center;
   
 }
