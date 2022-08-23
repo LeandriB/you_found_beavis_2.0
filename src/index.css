@@ -165,7 +165,7 @@ header nav ul li a {
   padding: 5px 10px;
   margin: 0 10px;
   font-weight: lighter;
-  font-size: 1.55vw;
+  font-size: 1vw;
 }
 
 header nav ul li a:hover {
@@ -173,6 +173,10 @@ header nav ul li a:hover {
   color: #fff;
   border-radius: 10px;
   text-shadow: none;
+}
+
+.nav {
+  padding-right: 6rem;
 }
 
 .nav-link {
@@ -202,7 +206,7 @@ header nav ul li a:hover {
 }
 
 form {
-  margin-right: 30px;
+  margin: 35px;
   max-width: 600px;
   display: flex;
   flex-direction: column;
@@ -223,17 +227,51 @@ button {
   font-size: 18px;
   width: 200px;
   padding: 12px;
-  color: var(--pink);
-  border: 1px solid var(--pink);
+  color: #f542d7;
+  border: 1px solid #f542d7;
   border-radius: 5px;
   background-color: #f7f7f7;
+  font-weight: 500;
 }
 
 button:hover {
   color: #f7f7f7;
   cursor: pointer;
-  background-color: var(--pink);
-  box-shadow: inset 0 100px 0 0 var(--pink);
+  background-color: #f542d7;
+  box-shadow: inset 0 100px 0 0 #f542d7;
+}
+
+/* Resume section */
+
+button a {
+  text-decoration: none;
+  color:#f542d7; 
+}
+
+button a:hover {
+  text-decoration: none;
+  color: #f7f7f7;
+}
+
+.download {
+  margin-top: 100px;
+}
+
+.card {
+  max-width: 400px;
+}
+
+.card-text {
+  font-size: 1.2rem;
+  line-height: 3rem;
+}
+
+.columns {
+  padding-left: 6rem;
+}
+
+.column {
+  height: 52vh;
 }
 
 /* Social Media Icons*/
@@ -275,7 +313,7 @@ h4 {
 .scroll {
   /* left: 2.7rem; */
   width: 100%;
-  height: 60vh; /* or any value */
+  height: 55vh;
   overflow-y: auto;
 }
 
@@ -355,10 +393,10 @@ h4 {
 }
 
 .button {
-  color: var(--pink);
+  color:#f542d7;
   background-color:  #f7f7f7;
   border-radius: 5px;
-  border: 1px solid var(--pink);
+  border: 1px solid #f542d7;
   padding: 10px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -370,7 +408,12 @@ h4 {
 
 .button:hover {
   color: #f7f7f7;
-  background-color: var(--pink);
+  background-color: #f542d7;
+  text-decoration: none;
+}
+
+.links {
+  margin-left: 20px;
 }
 
 /*
@@ -402,5 +445,177 @@ h4 {
   }
   100% {
       opacity: 1;
+  }
+}
+
+/* Media Queries */
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px){
+  header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+  }
+
+  header h1 {
+      width: 100%;
+      text-align: center;
+  }
+
+  header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+  }
+
+  header nav ul li a {
+      font-size: 20px;
+  }
+
+  .card {
+      height: 140px;
+  }
+
+  .card-info {
+      font-size: 16px;
+      bottom: 12px;
+  }
+
+  .contact {
+      padding-left: 24px;
+  }
+
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) { 
+
+  header {
+      padding-top: 5px;
+  }
+
+  header nav ul {
+      margin-top: 5px;
+  }
+
+  section {
+      padding: 30px 35px;
+  }
+
+  .contact {
+      padding-left: 5px;
+  }
+
+  .card-info {
+      font-size: 12px;
+      bottom: 8px;
+  }
+
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 971px) {
+    
+  .welcome {
+      width: auto;
+      position: absolute;
+      top: 300px
+  }
+
+  header {
+      position: absolute;
+      width: 100vw;
+      top: 0;
+  }
+
+  .home-image {
+      position: absolute;
+      top: 0;
+      height: 300px;
+      min-width: 100vw;
+  }
+
+  .home-body {
+      margin: 0 auto;
+      flex-grow: 1;
+      height: 100vh;
+      width: 55vw;
+  }
+
+  h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 125px;
+      margin: 50px 0 30px 0;
+  }
+  .small {
+      text-align: left;
+      font-size: 50px;
+      display: block;
+  }
+
+}
+
+@media only screen and (max-width: 768px) and (min-width: 501px) {
+
+  .welcome {
+      position: absolute;
+      top: 200px;
+  }
+  .home-image {
+      position: absolute;
+      top: 0;
+      height: 35vh;
+      width: 100vw;
+      right: 0;
+  }
+
+  header {
+      position: absolute;
+      top: 0;
+  }
+
+  h1 {
+      font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  
+  .welcome {
+      margin: 30px 20px;
+      position: absolute;
+      top: 200px;
+      width: 90vw;
+  }
+
+  .home-image {
+      position: absolute;
+      top: 0;
+      height: 30vh;
+      width: 100vw;
+      right: 0;
+  }
+
+  h1 {
+      font-size: 60px;
+  }
+
+  header {
+      position: absolute;
+      top: 0;
+  }
+
+  .about-text {
+      width: 90vw;
+  }
+
+  .project-items {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .project-display {
+      margin: 15px;
   }
 }

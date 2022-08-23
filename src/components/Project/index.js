@@ -16,11 +16,14 @@ function Project(props) {
                                     <h4 className="project-title">{project.title}</h4>
                                     <p className="project-description">{project.description}</p>
                                     <p className="project-github">
-                                        <a href={project.deployed} className="portfolio-link button">View Project</a>
-                                        {/* TODO: add github */}
-                                        <a href={project.github}>
-                                            <img className="social-icons" src="/assets/icons/github.png" alt="Github"/>
-                                        </a>
+                                        <span className="links">
+                                            <a href={project.deployed} className="portfolio-link button">View Project</a>
+                                        </span>
+                                        <span className="links">
+                                            <a href={project.github}>
+                                                <img className="social-icons" src="/assets/icons/github.png" alt="Github"/>
+                                            </a>
+                                        </span>
                                     </p>
                                 </section>
                             </section>
