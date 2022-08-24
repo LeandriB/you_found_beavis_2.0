@@ -17,7 +17,6 @@ function Resume() {
                 </span>
                 <span className="column col-5">
                     <button className="download">
-                        {/* TODO: add link to pdf to download */}
                         <a href="/assets/images/resume.pdf" download>Download Resume</a>
                     </button>
                 </span>

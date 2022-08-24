@@ -2,11 +2,10 @@ import React, { useState } from "react";
 import About from "../About";
 import Navigation from "../Navigation";
 import Portfolio from "../Portfolio";
-import Contact from "../Contact";
 import Resume from "../Resume";
+import Contact from "../Contact";
 
 function Header() {
-    // TODO: Review naming conventions for page/page change handler 
     const [pageSelected, togglePage] = useState("About");
 
     const getPage = () => {
