@@ -27,15 +27,13 @@ function Header() {
         <section className="page-container">
             <section className="top-line"></section>
             <section className="home-container">
-                <header>
-                    <Navigation
-                        pageSelected={pageSelected}
-                        togglePage={togglePage}
-                    />
-                    <main>
-                        <div>{getPage(pageSelected)}</div>
-                    </main>
-                </header>
+                <Navigation
+                    pageSelected={pageSelected}
+                    togglePage={togglePage}
+                />
+                <main>
+                    <div>{getPage(pageSelected)}</div>
+                </main>
             </section>
         </section>
     )

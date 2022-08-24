@@ -2,7 +2,7 @@ import React from "react";
 
 function Project(props) {
     return (
-            <section className="scroll">
+            <section className="scroll project">
                 <section className="project-container">
                     <section className="project-items">
         

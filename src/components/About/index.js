@@ -31,7 +31,11 @@ function About() {
                 When I am not improving my projects or solving coding problems, you can find me outdoors, hanging out with my dogs, 
                 at the gym or, in the kitchen cooking up a storm. 
             </p>
-            <img className="home-image" src="../assets/images/me.png" alt="me"/>
+            <div className="home-image">
+                    <figure className="image"> 
+                        <img className="is-rounded" src="../assets/images/me.png" alt="me"/>
+                    </figure>
+            </div>
         </section>
     )
 }

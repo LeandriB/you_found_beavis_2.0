@@ -41,7 +41,7 @@ function Contact() {
         <div>
             <h1 className="small ease-right-expand">Let's Connect</h1>
             <p className="contact-text">Send me a message to discuss a project</p>
-            <form onSubmit={handleSubmit}>
+            <form className="form-container" onSubmit={handleSubmit}>
                 <label className="contact-top-text">Name:</label>
                 <input type="text" id="name" defaultValue={name} onBlur={handleChange}></input>
 

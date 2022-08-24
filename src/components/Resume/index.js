@@ -5,8 +5,8 @@ function Resume() {
         <section className="container">
             <h1 className="small ease-right-expand">Skills</h1>
             <br/>
-            <section className="row columns  justify-content-center">
-                <span className="column col-5">
+            <section className="columns">
+                <span className="column">
                     <ul className="card-body">
                         <li className="card-text">HTML, CSS, JavaScript</li>
                         <li className="card-text">React, Angular, TypeScript</li>
@@ -15,7 +15,7 @@ function Resume() {
                         <li className="card-text">Version Control</li>
                     </ul>
                 </span>
-                <span className="column col-5">
+                <span className="column">
                     <button className="download">
                         <a href="/assets/images/resume.pdf" download>Download Resume</a>
                     </button>
