@@ -6,10 +6,10 @@ function Navigation(props) {
 
     return (
         <section>
-            <nav>
-                <ul className="nav nav-pills mb-3 justify-content-end">
+            <nav className="navbar-end" role="navigation" aria-label="main navigation">
+                <ul className="nav navbar-brand">
                     {pages.map((page) => (
-                    <li className={props.pageSelected === page ? "nav-item isActive" : "nav-item"}
+                    <li className={props.pageSelected === page ? "navbar-item isActive" : "navbar-item"}
                         key={page}
                         >
                         <a className={props.pageSelected === page ? "nav-link active" : "nav-link" } onClick={() => props.togglePage(page)}> {page} </a>

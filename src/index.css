@@ -79,6 +79,7 @@ li {
 
 .color {
   transition: color 0.3s ease;
+  font-weight: 600;
 }
 
 .one:hover {
@@ -182,10 +183,25 @@ header nav ul li a:hover {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  color: #f1e727;
+  font-weight: 600;
 }
 
-.nav-pills .nav-link.active {
-  background-color: #f1e727;;
+.navbar-item {
+  color:#f1e727;
+  padding-top: 0;
+}
+
+.nav-link:hover {
+  background-color: #f1e727;
+  color: white;
+  border-radius: 5px;
+}
+
+.navbar-item .nav-link.active {
+  background-color: #f1e727;
+  color: white;
+  border-radius: 5px;
 }
 
 /* Form set up and display */

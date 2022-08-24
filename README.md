@@ -96,6 +96,7 @@ This application is licensed under the MIT License.
 * How to make a button [downloadable](https://www.w3schools.com/tags/att_a_download.asp)
 * [Bootstrap](https://getbootstrap.com/docs/4.0/components/navs/) for some of the styling
 * [Formspree](https://help.formspree.io/hc/en-us/articles/360055613373-The-Formspree-React-library#:~:text=The%20useForm%20React%20hook%20is,form%20in%20the%20Formspree%20dashboard.) with React
+* [useState](https://bobbyhadz.com/blog/react-hook-usestate-called-conditionally) fix conditionally rendering error
 
 ## Questions
 
