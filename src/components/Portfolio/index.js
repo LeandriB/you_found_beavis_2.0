@@ -56,7 +56,7 @@ function Portfolio() {
 
     return (
         <section>
-            <h1 className="small ease-right-expand">Projects</h1>
+            <h1 className="small ease-right-expand categories">Projects</h1>
                 <Project projects={projects}/>
         </section>
     )

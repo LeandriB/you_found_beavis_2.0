@@ -489,8 +489,8 @@ h4 {
 }
 
 /* Media Queries */
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width: 980px){
+
+@media screen and (max-width: 575px){
   header {
       padding-bottom: 0;
       justify-content: center;
@@ -503,160 +503,138 @@ h4 {
   }
 
   header nav ul {
-      margin-top: 20px;
       width: 100%;
       justify-content: center;
   }
 
   header nav ul li a {
-      font-size: 20px;
+      font-size: 15px;
   }
 
-  .card {
-      height: 140px;
+  main {
+    padding: 0px;
+    margin: 0px;
   }
-
-  .card-info {
-      font-size: 16px;
-      bottom: 12px;
-  }
-
-  .contact {
-      padding-left: 24px;
-  }
-
-}
-
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 768px) { 
-
-  header {
-      padding-top: 5px;
-  }
-
-  header nav ul {
-      margin-top: 5px;
-  }
-
-  section {
-      padding: 30px 35px;
-  }
-
-  .contact {
-      padding-left: 5px;
-  }
-
-  .card-info {
-      font-size: 12px;
-      bottom: 8px;
-  }
-
-}
-
-/* Media Queries */
-
-@media screen and (max-width: 971px) {
-    
-  .welcome {
-      width: auto;
-      position: absolute;
-      top: 300px
-  }
-
-  header {
-      position: absolute;
-      width: 100vw;
-      top: 0;
-  }
-
-  .home-image {
-      position: absolute;
-      top: 0;
-      height: 300px;
-      min-width: 100vw;
-  }
-
-  /* .home-body {
-      margin: 0 auto;
-      flex-grow: 1;
-      height: 100vh;
-      width: 55vw;
-  } */
 
   h1 {
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 125px;
-      margin: 50px 0 30px 0;
+    margin: 80px 0 30px 30px;
   }
+
+  .nav {
+    padding-right: 0px;
+  }
+
   .small {
-      text-align: left;
-      font-size: 50px;
-      display: block;
+    font-size: 40px;
   }
 
-}
-
-@media only screen and (max-width: 768px) and (min-width: 501px) {
-
-  .welcome {
-      position: absolute;
-      top: 200px;
-  }
-  .home-image {
-      position: absolute;
-      top: 0;
-      height: 35vh;
-      width: 100vw;
-      right: 0;
+  .ease-right-expand {
+    font-size: 80px;
   }
 
-  header {
-      position: absolute;
-      top: 0;
-  }
-
-  h1 {
-      font-size: 70px;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  
-  .welcome {
-      margin: 30px 20px;
-      position: absolute;
-      top: 200px;
-      width: 90vw;
+  .categories {
+    font-size: 40px;
+    padding-left: 30px;
   }
 
   .home-image {
-      position: absolute;
-      top: 0;
-      height: 128px;
-      width: 128px;
-      right: 0;
+    right: 13rem;
+    top: 4rem;
   }
 
-  h1 {
-      font-size: 60px;
+  .scroll {
+    height: 100vh;
+    padding-left: 80px;
   }
 
-  header {
-      position: absolute;
-      top: 0;
+  .project-items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .welcome {
+    margin: 30px 10px 30px 20px;
+  }
+
+  .card-text {
+    line-height: 2rem;
   }
 
   .about-text {
-      width: 90vw;
+    width: 480px;
+    margin-left: 20px;
   }
-
-  .column {
-    display: flex;
-    height: 0px;
-  }
-
-
-
-/* Project Items */
 
 }
+
+@media screen and (max-width: 768px){
+  header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+  }
+
+  header h1 {
+      width: 100%;
+      text-align: center;
+  }
+
+  header nav ul {
+      width: 100%;
+      justify-content: center;
+  }
+
+  header nav ul li a {
+      font-size: 15px;
+  }
+
+  h1 {
+    margin: 80px 0 30px 0;
+  }
+
+  .nav {
+    padding-right: 0px;
+  }
+
+  .home-image {
+    right: 16rem;
+    top: 4rem;
+  }
+
+  .scroll {
+    height: 100vh;
+  }
+
+  .project-items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .welcome {
+    margin: 30px 10px 30px 20px;
+  }
+
+}
+
+@media screen and (max-width: 980px){
+
+  .contact-text {
+    padding-left: 50px;
+  }
+
+  .home-image {
+    right: 3rem;
+    top: 2rem;
+    width: 280px;
+  }
+
+  nav ul {
+    justify-content: flex-end;
+  }
+
+  .navbar-brand .navbar-item {
+    display: block;
+  }
+
+}
+

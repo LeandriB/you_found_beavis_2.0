@@ -3,9 +3,9 @@ import React from "react";
 function Resume() {
     return (
         <section className="container">
-            <h1 className="small ease-right-expand">Skills</h1>
+            <h1 className="small ease-right-expand categories">Skills</h1>
             <br/>
-            <section className="columns">
+            <section className="columns is-mobile">
                 <span className="column">
                     <ul className="card-body">
                         <li className="card-text">HTML, CSS, JavaScript</li>
