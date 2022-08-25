@@ -322,6 +322,14 @@ button a:hover {
   justify-content: center;
 }
 
+.grow { 
+  transition: all .2s ease-in-out; 
+  }
+  
+.grow:hover { 
+  transform: scale(1.1); 
+  }
+
  /* Project Display */
 
 h4 {
@@ -442,6 +450,10 @@ h4 {
 
 .links {
   margin-left: 20px;
+}
+
+.footer {
+  padding: 10px;
 }
 
 /*
@@ -620,8 +632,8 @@ h4 {
   .home-image {
       position: absolute;
       top: 0;
-      height: 30vh;
-      width: 100vw;
+      height: 128px;
+      width: 128px;
       right: 0;
   }
 
@@ -638,12 +650,13 @@ h4 {
       width: 90vw;
   }
 
-  .project-items {
-      display: flex;
-      flex-direction: column;
+  .column {
+    display: flex;
+    height: 0px;
   }
 
-  .project-display {
-      margin: 15px;
-  }
+
+
+/* Project Items */
+
 }

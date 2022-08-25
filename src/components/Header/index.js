@@ -32,7 +32,7 @@ function Header() {
                     togglePage={togglePage}
                 />
                 <main>
-                    <div>{getPage(pageSelected)}</div>
+                    {getPage(pageSelected)}
                 </main>
             </section>
         </section>
