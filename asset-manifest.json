@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/you_found_beavis_2.0/static/css/main.d34b8382.css",
-    "main.js": "/you_found_beavis_2.0/static/js/main.bcb626b6.js",
+    "main.js": "/you_found_beavis_2.0/static/js/main.2f8a90d3.js",
     "static/js/787.e75076b1.chunk.js": "/you_found_beavis_2.0/static/js/787.e75076b1.chunk.js",
     "index.html": "/you_found_beavis_2.0/index.html",
     "main.d34b8382.css.map": "/you_found_beavis_2.0/static/css/main.d34b8382.css.map",
-    "main.bcb626b6.js.map": "/you_found_beavis_2.0/static/js/main.bcb626b6.js.map",
+    "main.2f8a90d3.js.map": "/you_found_beavis_2.0/static/js/main.2f8a90d3.js.map",
     "787.e75076b1.chunk.js.map": "/you_found_beavis_2.0/static/js/787.e75076b1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d34b8382.css",
-    "static/js/main.bcb626b6.js"
+    "static/js/main.2f8a90d3.js"
   ]
 }
