@@ -21,7 +21,7 @@ function Project(props) {
                                         </span>
                                         <span className="links">
                                             <a href={project.github}>
-                                                <img className="social-icons" src="/assets/icons/github.png" alt="Github"/>
+                                                <img className="social-icons" src="assets/icons/github.png" alt="Github"/>
                                             </a>
                                         </span>
                                     </p>

@@ -15,7 +15,7 @@ function Portfolio() {
         {      
             id: 1,
             title: "Work Day Scheduler",
-            image: "/assets/images/workday.png",
+            image: "assets/images/workday.png",
             description: "A place where you can keep track of the things that you have to do for the day.",
             deployed: "https://leandrib.github.io/work_day_scheduler/",
             github: "https://github.com/LeandriB/work_day_scheduler",
@@ -31,7 +31,7 @@ function Portfolio() {
         {
             id: 3,
             title: "Casting Director",
-            image: "/assets/images/podcast.png",
+            image: "assets/images/podcast.png",
             description: "An application where you can look for podcasts and make a favorites list",
             deployed: "https://nickrearl.github.io/podcast-project/",
             github: "https://github.com/nickrearl/podcast-project",
@@ -39,7 +39,7 @@ function Portfolio() {
         {
             id: 4,
             title: "Note Taker",
-            image: "/assets/images/note_taker.png",
+            image: "assets/images/note_taker.png",
             description: "A note taking application where you can take notes and store data to look back at later",
             deployed: "https://shielded-dawn-41143.herokuapp.com/",
             github: "https://github.com/LeandriB/note_taker",
@@ -47,7 +47,7 @@ function Portfolio() {
         {
             id: 5,
             title: "Run Buddy",
-            image: "/assets/images/run-buddy.jpg",
+            image: "assets/images/run-buddy.jpg",
             description: "An application where you can find a coach to assist with training",
             deployed: "https://leandrib.github.io/run_buddy/",
             github: "https://github.com/LeandriB/run_buddy",

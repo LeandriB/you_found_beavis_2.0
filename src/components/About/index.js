@@ -6,7 +6,7 @@ function About() {
             <section className="">
                 <div className="home-image">
                     <figure className="image"> 
-                        <img className="is-rounded" src="../assets/images/me.png" alt="me"/>
+                        <img className="is-rounded" src="assets/images/me.png" alt="me"/>
                     </figure>
                 </div>
             </section>

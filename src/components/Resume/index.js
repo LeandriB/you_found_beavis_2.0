@@ -17,7 +17,7 @@ function Resume() {
                 </span>
                 <span className="column">
                     <button className="download">
-                        <a href="/assets/images/resume.pdf" download>Download Resume</a>
+                        <a href="assets/images/resume.pdf" download>Download Resume</a>
                     </button>
                 </span>
             </section>
