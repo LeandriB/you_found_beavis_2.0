@@ -46,7 +46,7 @@ function Contact() {
                 <input type="text" id="name" defaultValue={name} onBlur={handleChange}></input>
 
                 <label className="contact-top-text">Email:</label>
-                <input type="email" id="email" name="_replyto" defaultValue={email} onBlur={handleChange} ></input>
+                <input type="email" id="email" name="email" defaultValue={email} onBlur={handleChange} ></input>
                 
                 <label className="contact-top-text">Message:</label>
                 <input type="message" id="message" defaultValue={message} onBlur={handleChange} ></input>

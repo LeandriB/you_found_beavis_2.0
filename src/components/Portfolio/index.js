@@ -46,11 +46,11 @@ function Portfolio() {
         },
         {
             id: 5,
-            title: "Run Buddy",
-            image: "assets/images/run-buddy.jpg",
+            title: "My Rorschach",
+            image: "/assets/images/rorschach.png",
             description: "An application where you can find a coach to assist with training",
-            deployed: "https://leandrib.github.io/run_buddy/",
-            github: "https://github.com/LeandriB/run_buddy",
+            deployed: "http://www.myrorschach.com/",
+            github: "https://github.com/BenHuf/my-rorschach",
         },
     ]
 
