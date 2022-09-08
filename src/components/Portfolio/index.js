@@ -47,7 +47,7 @@ function Portfolio() {
         {
             id: 5,
             title: "My Rorschach",
-            image: "/assets/images/rorschach.png",
+            image: "assets/images/rorschach.png",
             description: "An application where you can find a coach to assist with training",
             deployed: "http://www.myrorschach.com/",
             github: "https://github.com/BenHuf/my-rorschach",
